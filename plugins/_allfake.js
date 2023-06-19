@@ -22,7 +22,7 @@ handler.all = async function (m) {
         
 		// Ini untuk command crator/owner
 		global.kontak2 = [
-         [owner[0], await conn.getName(owner[0] + '6285760451683@s.whatsapp.net'), 'Zeltoria', 'https://zeltoria.my.id', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
+         [owner[0], await conn.getName(owner[0] + '6285700921759@s.whatsapp.net'), 'Punya Dinda', 'https://hdiiofficial.github.io', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
         ]
         
 		// ucapan ini mah
@@ -38,19 +38,19 @@ handler.all = async function (m) {
 				//isForwarded: true, // ini biar ada tulisannya diteruskan berkali-kali, jika ingin di hilangkan ganti true menjadi false
 				externalAdReply: { // Bagian ini sesuka kalian berkreasi :'v
                     showAdAttribution: true,
-					title: "Clara - MD",
-					body: "© Xyroine",
+					title: "Punya Dinda",
+					body: "© ADINDA TASYA",
 					mediaUrl: sgc,
 					description: '',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(pp)).buffer(),
-					sourceUrl: "https://zeltoria.my.id",					
+					sourceUrl: "https://hdiiofficial.github.io",					
 				}
 			}
 		}
 		global.fakeig = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            title: 'Clara - MD',
+            title: 'PUNYA DINDA',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sig
