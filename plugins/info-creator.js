@@ -14,4 +14,4 @@ handler.help = ['owner', 'creator']
 handler.tags = ['main', 'info']
 handler.command = /^(owner|creator)/i
 export default handler
-/*
+*/
