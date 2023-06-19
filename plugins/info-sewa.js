@@ -5,7 +5,7 @@ let info = `
 ╭━━━━「 *SEWA* 」
 ┊• *1 Minggu:* 5K
 ┊• *1 Bulan:* 15K
-┊• *Permanen:* 50K
+┊• *Permanen:* Dibicarakan 
 ╰═┅═━––––––๑
 
 ╭━━━━「 *PREMIUM* 」
@@ -14,7 +14,7 @@ let info = `
 
 *PAYMENT:*
 
-• *Ovo:* [${povo}]
+• *DANA:* [${povo}]
 `
 conn.sendMessage(m.chat, { image: { url: pay }, caption: pay }, m)
 }
