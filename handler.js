@@ -805,16 +805,16 @@ let tag = `@${m.sender.replace(/@.+/, '')}`
 let name = conn.getName(m.sender)
 let fkon = { key: { fromMe: false, participant: `${m.sender.split`@`[0]}@s.whatsapp.net`, ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}) }, message: { contactMessage: { displayName: `${name}`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:${name}\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
 let msg = {
-        rowner: 'Maaf, Fitur Ini Hanya Bisa Di Pakai Oleh Ownerku',
+        rowner: 'Maaf, Fitur Ini Hanya Bisa Di Pakai Oleh Ayangnya Dinda',
         owner: 'Maaf, Fitur Ini Hanya Bisa Di Pakai Oleh Ownerku',
         mods: 'Fitur Ini Khusus Moderator',
         premium: 'Maaf Kak, Tapi Fitur Ini Hanya Bisa Di Gunakan Oleh User Premium',
         group: 'Fitur Ini Hanya Bisa Digunakan Di Dalam Grup',       
-        botAdmin: 'Jadikan Clara Sebagai Admin Terlebih Dahulu Agar Bisa Menggunakan Fitur Ini',
+        botAdmin: 'Jadikan Bot Sebagai Admin Terlebih Dahulu Agar Bisa Menggunakan Fitur Ini',
         restrict: 'Restict Belum Di Nyalakan Untuk Chat Ini'}[type]
   if (msg) return conn.reply(m.chat, msg, fkon)
   let daftar = {
-  unreg: 'Hai Kak, Sebelum Menggunakan Fiturku, Kamu Harus Daftar Ke Database Terlebih Dahulu\nCaranya Ketik .daftar namakamu.umurkamu\nContoh : .daftar Clara.18'}[type]
+  unreg: 'Hai Kak, Sebelum Menggunakan Fiturku, Kamu Harus Daftar Ke Database Terlebih Dahulu\nCaranya Ketik .daftar namakamu.umurkamu\nContoh : .daftar Hadi.18'}[type]
   if (daftar) return conn.reply(m.chat, msg, fkon)
         }
 function ucapan() {
