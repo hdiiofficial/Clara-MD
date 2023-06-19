@@ -44,7 +44,7 @@ const config = {
     version,
     printQRInTerminal: true,
     auth: state,
-    browser: ['Jadibot By Clara', 'Safari', '1.1.0'], 
+    browser: ['DINDA X HADI DEV', 'Safari', '1.1.0'], 
     receivedPendingNotifications: false
     }
     conn = makeWASocket(config)
