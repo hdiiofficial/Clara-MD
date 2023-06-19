@@ -3,9 +3,9 @@ let sewa = `
 ❏──「 *Sewa* 」
 │ • *1 Minggu:* 5K
 │ • *1 Bulan:* 15K
-│ • *Permanen:* 50K
+│ • *Permanen:* Dibicarakan
 ┠──「 *Pembayaran* 」
-│ • *Ovo:* [${global.povo}]
+│ • *DANA:* [${global.povo}]
 │ • *Saweria:* [${global.psaweria}]
 │ • *Trakteer:* [${global.ptrakterr}]
 ❏──────────────๑
