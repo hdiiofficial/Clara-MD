@@ -6,23 +6,23 @@ const readMore = more.repeat(4001)
 
 // Owner
 global.owner = [
-['6285760451683', 'Zeltoria', true]
+['6285700921759', 'Punya Dinda', true]
 ]
 global.mods = []
 global.prems = []
 // Info
-global.nomorwa = '6285760451683'
-global.author = '© Zeltoria'
-global.namebot = '​Clara - MD'
-global.wm = '© Clara By Zeltoria'
+global.nomorwa = '6285700912979'
+global.author = '© ADINDA TASYA'
+global.namebot = '​Punya Dinda'
+global.wm = '© HADI DEV'
 // Link Sosmed
-global.sig = 'https://www.instagram.com/danilelistz02'
-global.sgh = 'https://github.com/Zeltoria'
-global.sgc = 'https://chat.whatsapp.com/Csjk910wJyt0ZTQGidpVUS'
+global.sig = 'https://www.instagram.com/hdiiofficial'
+global.sgh = 'https://github.com/'
+global.sgc = 'https://chat.whatsapp.com/LJaNeWnBWuH4nZ7tpxrdzu'
 // Donasi
-global.psaweria = 'https://saweria.co/Zeltoria'
-global.ptrakterr = 'https://trakteer.id/zeltoria'
-global.povo = '0896-1075-0607'
+global.psaweria = 'https://saweria.co/hdiiofficial'
+global.ptrakterr = 'https://trakteer.id/hdiiofficial'
+global.povo = '085700921759'
 // Info Wait
 global.wait = '_Sedang Di Proses, Mohon Tunggu_....'
 global.eror = 'Terjadi Kesalahan Coba Lagi Nanti!'
