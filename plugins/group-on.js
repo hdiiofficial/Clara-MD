@@ -4,7 +4,7 @@ let handler = async (m, { participants }) => {
     m.reply(' *Huwaaa, Clara Mau Tidur Dulu >,<* ')
     // } else m.reply('Ada nomor Ownerku disini...')
 }
-handler.command = /^(claraoff)$/i
+handler.command = /^(grupoff)$/i
 
 handler.admin = true
 handler.group = true
