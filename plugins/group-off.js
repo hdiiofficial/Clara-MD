@@ -4,7 +4,7 @@ let handler = async (m) => {
 }
 
 
-handler.command = /^(claraon)$/i
+handler.command = /^(grupon)$/i
 handler.group = true
 handler.admin = true
 
